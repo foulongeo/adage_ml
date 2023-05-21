@@ -1,0 +1,265 @@
+a unique identifier given to every patient included. The first letter represents the center where the patient got included (H: Georges Pompidou European Hospital, L: Lariboisière Hospital, MG: Namur Universitary Hospital, R: Rothschild Hospital, T: Charles Foix Hospital - "Triade" department, U: Charles Foix Hospital - "UGA" department)
+date of birth
+age of the patient at the time of inclusion
+doac treatment (A: apixaban, D: dabigatran, R: rivaroxaban)
+1 if the patient was included in the ADAGE sub-cohort studied for the article published in Thrombosis and Haemostasis in 2023, else 0
+doac dose regimen, in mg
+number of samples gathered
+value of measured DOAC Cmax, in ng/mL
+value of measured DOAC Cmin, in ng/mL
+D-dimer level at Cmax, in µg/mL
+D-dimer level at Cmin, in µg/mL
+fibrinogen level at inclusion
+hospital where the patient was included
+date of inclusion
+sex of the patient (1 for females, 0 for males)
+weight, in kg
+height, in cm
+blood pressure, in mmHg
+heart failure (1 if yes, 0 if no)
+liver failure (1 if yes, 0 if no)
+alcoholism (1 if yes, 0 if no)
+coronary heart disease (1 if yes, 0 if no)
+stroke history (1 if yes, 0 if no)
+solid cancer history (1 if yes, 0 if no)
+haemopathy history (1 if yes, 0 if no)
+demencia history (1 if yes, 0 if no)
+CIRS-G (Cumulative Illness Rating Scale) score
+modified CIRS-G score
+type of atrial fibrillation (paroxysmal = 1 ; persistent = 2 ; permanent = 3)
+high blood pressure (1 if yes, 0 if no)',
+diabetes history (1 if yes, 0 if no)
+dyslipidaemia (1 if yes, 0 if no)
+active smoking (1 if yes, 0 if no)
+obesity (1 if yes, 0 if no)
+CHA2DS2–VASc score
+HAS-BLED score
+Hemorr2hages score
+number of unique medications taken daily in addition to the DOAC
+list of unique medications taken
+treated with amiodarone (1 if yes, 0 if no)
+treated with verapamil (1 if yes, 0 if no)
+treated with quinidine (1 if yes, 0 if no)
+treated with clarithromycin (1 if yes, 0 if no)
+treated with aspirin (1 if yes, 0 if no)
+treated with clopidogrel (1 if yes, 0 if no)
+treated with another anti-platelet medication (1 if yes, 0 if no)
+treated with nsaid (1 if yes, 0 if no)
+treated with beta-blocker (1 if yes, 0 if no)
+treated with acei (1 if yes, 0 if no)
+treated with arbs (1 if yes, 0 if no)
+treated with statin (1 if yes, 0 if no)
+creatinine in µmol/L
+creatinine clearance estimed by Cockcroft & Gault formula, in mL/min
+creatinine clearance estimed by MDRD formula, in mL/min
+creatinine clearance estimed by CKD-EPI formula, in mL/min
+C-reactive protein, in mg/mL
+albumin, in g/L
+haemoglobin, in g/dL
+platelets, in G/L
+leucocytes, in G/L
+aspartate transaminase, expressed as a number of times the normal
+alanine transaminase, expressed as a number of times the normal
+gamma-glutamyltransferase, expressed as a number of times the normal
+alkaline phosphatase, expressed as a number of times the normal
+bilirubin, expressed as a number of times the normal
+date of DOAC treatment initiation
+patient has completed the 6-month follow-up (1 if yes, 0 if no)
+patient was hospitalised in the 6-month period following inclusion (1 if yes, 0 if no)
+patient received a blood transfusion in the 6-month period following inclusion (1 if yes, 0 if no)
+patient reported a bleeding event in the 6-month period following inclusion (1 if yes, 0 if no)
+type of bleeding reported at the 6-month follow-up
+date of bleeding event reported at the 6-month follow-up
+patient reported a thrombo-embolic event in the 6-month period following inclusion (1 if yes, 0 if no)
+type of thrombo-embolic event reported at the 6-month follow-up
+date of thrombo-embolic event reported at the 6-month follow-up
+patient died within 6 months of inclusion
+date of death, if patient died within 6 month of inclusion
+six months from inclusion, the patient is still treated by DOAC (1 if yes, 0 if no)
+patient has completed the 12-month follow-up (1 if yes, 0 if no)
+patient was hospitalised in the 12-month period following inclusion (1 if yes, 0 if no)
+patient received a blood transfusion in the 12-month period following inclusion (1 if yes, 0 if no)
+patient reported a bleeding event in the 12-month period following inclusion (1 if yes, 0 if no)
+type of bleeding reported at the 12-month follow-up
+date of bleeding event reported at the 12-month follow-up
+patient reported a thrombo-embolic event in the 12-month period following inclusion (1 if yes, 0 if no)
+type of thrombo-embolic event reported at the 12-month follow-up
+date of thrombo-embolic event reported at the 12-month follow-up
+patient died within 12 month of inclusion
+date of death, if patient died within 12 month of inclusion
+twelve months from inclusion, the patient is still treated by DOAC (1 if yes, 0 if no)
+body mass index, in kg/m²
+patient C-reactive protein level is above 5 mg/mL (1 if yes, 0 if no)
+kidney failure according to Cockcroft & Gault formula (0: creatinine clearance > 90 mL/min, 1: creatinine clearance between 61 and 90 mL/min, 2: creatinine clearance between 31 and 60 mL/min, 3: creatinine clearance ≤ 30 mL/min)
+kidney failure according to Cockcroft & Gault formula (1: creatinine clearance < 50 mL/min, 0: creatinine clearance ≥ 50 mL/min)
+number of medications that are substrates of P-glycoprotein
+number of medications that are inhibitors of P-glycoprotein
+number of medications that are substrates or inhibitors of P-glycoprotein
+patient takes at least 1 medication that is substrate or inhibitor of P-glycoprotein (1 if yes, 0 if no)
+patient takes at least 1 medication that is a substrate of P-glycoprotein (1 if yes, 0 if no)
+patient takes at least 1 medication that is an inhibitor of P-glycoprotein (1 if yes, 0 if no)
+number of medications that are substrates of CYP3A4
+number of medications that are inhibitors of CYP3A4
+number of medications that are inductors of CYP3A4
+number of medications that are substrates, inhibitors or inductors of CYP3A4
+patient takes at least 1 medication that is substrate, inhibitor or inductor of CYP3A4 (1 if yes, 0 if no)
+patient takes at least 1 medication that is substrate of CYP3A4 (1 if yes, 0 if no)
+patient takes at least 1 medication that is an inhibitor of CYP3A4 (1 if yes, 0 if no)
+treated with ssri (1 if yes, 0 if no)
+treated with snra (1 if yes, 0 if no)
+treated with ssri or snra (1 if yes, 0 if no)
+treated with another anticoagulant, in addition to DOAC (1 if yes, 0 if no)
+treated with amlodipine (1 if yes, 0 if no)
+treated with alprazolam (1 if yes, 0 if no)
+treated with atorvastatin (1 if yes, 0 if no)
+treated with bisoprolol (1 if yes, 0 if no)
+treated with citalopram (1 if yes, 0 if no)
+treated with diazepam (1 if yes, 0 if no)
+treated with diltiazem (1 if yes, 0 if no)
+treated with digoxin (1 if yes, 0 if no)
+treated with irbesartan (1 if yes, 0 if no)
+treated with lansoprazole (1 if yes, 0 if no)
+treated with losartan (1 if yes, 0 if no)
+treated with mirtazapine (1 if yes, 0 if no)
+treated with oxycodone (1 if yes, 0 if no)
+treated with tamsulosin (1 if yes, 0 if no)
+treated with simvastatin (1 if yes, 0 if no)
+treated with zopiclone or zolpidem (1 if yes, 0 if no)
+history of solid cancer or haemopathy (1 if yes, 0 if no)
+platelets in normal range (1 if yes, 0 if no)
+hyperleucocytosis (1 if yes, 0 if no)
+treated with triazole antifungal (1 if yes, 0 if no)
+treated with antiarrythmics (1 if yes, 0 if no)
+treated with any anti-platelets medication (1 if yes, 0 if no)
+doac treatement duration at inclusion (in month)
+patient lost to follow-up before 6 months
+patient lost to follow-up before 12 months
+patient reported a bleeding event in either the 6-month or 12-month period following inclusion (1 if yes, 0 if no)
+patient reported a thrombo-embolic event in either the 6-month or 12-month period following inclusion (1 if yes, 0 if no)
+patient reported a bleeding event that was classified as major, according to ISTH criteria, in either the 6-month or 12-month period following inclusion (1 if yes, 0 if no)
+patient reported a bleeding event that was classified as major, according to ISTH criteria, in the 6-month period following inclusion (1 if yes, 0 if no)
+patient reported a bleeding event that was classified as major, according to ISTH criteria, in the 12-month period following inclusion (1 if yes, 0 if no)
+id of the bleeding event reported at 6-month follow up (characterized in a dedicated database)
+id of the thrombo-embolic event reported at 6-month follow up (characterized in a dedicated database)
+time after inclusion at which the thrombo-embolic event occurred
+time after inclusion at which the bleeding event occurred, in months
+time after inclusion at which death occurred, in months
+patient has been phenotyped (1 if yes, 0 if no)
+genotype for ABCB1 exon 21 (GG = wild type, T or A = muted allele)
+genotype for ABCB1 exon 26 (CC = wild type, T = muted allele)
+genotype for ABCB1 exon 12 (CC = wild type, T = muted allele)
+genotype for CYP2J2 (GG = wild type, T = muted allele)
+genotype for CYP3A5 (AA = wild type, G = muted allele)
+at least one of patient's sample was analysed by thrombin generation (any method)
+at least one of patient's sample was analysed by fibrinogrpahy (Thrombodynamics)
+at least one of patient's sample was analysed by thrombinography (Thrombodynamics)
+at least one of patient's sample was analysed by DrugScreen (St-Genesia)
+at least one of patient's sample was analysed by ThromboScreen without thrombomodulin (St-Genesia)
+at least one of patient's sample was analysed by ThromboScreen with thrombomodulin (St-Genesia)
+patient DOAC regimen is not in compliance with European Society of Cardiology's recommendations
+DOAC regimen in compliance with European Society of Cardiology's recommendations
+DOAC dose below European Society of Cardiology recommendations
+DOAC dose above European Society of Cardiology recommendations
+rate of clot growth at Cmax, in µm/min
+lag time (fibrinography) at Cmax, in min
+initial rate of clot growth at Cmax, in µm/min
+stationary rate of clot growth at Cmax, in µm/min
+clot size (measured at 30 min) at Cmax, in µm
+clot density at Cmax, in arbitrary units
+time of spontaneous clotting at Cmax, in min
+lag time or "LT" (thombodynamics) at Cmax, in min
+peak height or "PH" (thombodynamics) at Cmax, in thrombin arbitrary units/L
+time to peak or "TTP" (thombodynamics) at Cmax, in min
+endogenous thrombin potential or "ETP" (thombodynamics) at Cmax, in thrombin arbitrary units * min/L
+stationary amplitude of thrombin peak (thombodynamics) at Cmax, in thrombin arbitrary units/L
+rate of thrombin peak propagation (thombodynamics) at Cmax, in µm/min
+lag time or "LT" using DrugScreen (St-Genesia) at Cmax, in min
+peak height or "PH" using DrugScreen (St-Genesia) at Cmax, in nM/L
+time to peak or "TTP" using DrugScreen (St-Genesia) at Cmax, in min
+endogenous thrombin potential or "ETP" using DrugScreen (St-Genesia) at Cmax, in nM*min/L
+velocity index using DrugScreen (St-Genesia) at Cmax, in nM/min
+start tail using DrugScreen (St-Genesia) at Cmax, in min
+normalised lag time using DrugScreen (St-Genesia) at Cmax, expressed as a ratio
+normalised peak height using DrugScreen (St-Genesia) at Cmax, expressed as a %
+normalised time to peak using DrugScreen (St-Genesia) at Cmax, expressed as a ratio
+normalised endogenous thrombin potential using DrugScreen (St-Genesia) at Cmax, expressed as a %
+normalised velocity index using DrugScreen (St-Genesia) at Cmax, expressed as a %
+normalised start tail using DrugScreen (St-Genesia) at Cmax, expressed as a ratio
+lag time or "LT" using ThromboScreen in the presence of thrombomodulin (St-Genesia) at Cmax, in min
+peak height or "PH" using ThromboScreen in the presence of thrombomodulin (St-Genesia) at Cmax, in nM/L
+time to peak or "TTP" using ThromboScreen in the presence of thrombomodulin (St-Genesia) at Cmax, in min
+endogenous thrombin potential or "ETP" using ThromboScreen in the presence of thrombomodulin (St-Genesia) at Cmax, in nM*min/L
+velocity index using ThromboScreen in the presence of thrombomodulin (St-Genesia) at Cmax, in nM/min
+start tail using ThromboScreen in the presence of thrombomodulin (St-Genesia) at Cmax, in min
+lag time or "LT" using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmax, in min
+peak height or "PH" using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmax, in nM/L
+time to peak or "TTP" using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmax, in min
+endogenous thrombin potential or "ETP" using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmax, in nM*min/L
+velocity index using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmax, in nM/min
+start tail using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmax, in min
+normalised lag time using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmax, expressed as a ratio
+normalised peak height using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmax, expressed as a %
+normalised time to peak using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmax, expressed as a ratio
+normalised endogenous thrombin potential using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmax, expressed as a %
+normalised velocity index using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmax, in nM/min
+normalised start tail using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmax, expressed as a ratio
+percentage of inhibition of lag time by thrombomodulin (St-Genesia) at Cmax, expressed as a %
+percentage of inhibition of peak height by thrombomodulin (St-Genesia) at Cmax, expressed as a %
+percentage of inhibition of time to peak by thrombomodulin (St-Genesia) at Cmax, expressed as a %
+percentage of inhibition of endogenous thrombin potential by thrombomodulin (St-Genesia) at Cmax, expressed as a %
+percentage of inhibition of velocity index by thrombomodulin (St-Genesia) at Cmax, expressed as a %
+percentage of inhibition of start tail by thrombomodulin (St-Genesia) at Cmax, expressed as a %
+rate of clot growth at Cmin, in µm/min
+lag time (fibrinography) at Cmin, in min
+initial rate of clot growth at Cmin, in µm/min
+stationary rate of clot growth at Cmin, in µm/min
+clot size (measured at 30 min) at Cmin, in µm
+clot density at Cmin, in arbitrary units
+time of spontaneous clotting at Cmin, in min
+lag time or "LT" (thombodynamics) at Cmin, in min
+peak height or "PH" (thombodynamics) at Cmin, in thrombin arbitrary units/L
+time to peak or "TTP" (thombodynamics) at Cmin, in min
+endogenous thrombin potential or "ETP" (thombodynamics) at Cmin, in thrombin arbitrary units * min/L
+stationary amplitude of thrombin peak (thombodynamics) at Cmin, in thrombin arbitrary units/L
+rate of thrombin peak propagation (thombodynamics) at Cmin, in µm/min
+lag time or "LT" using DrugScreen (St-Genesia) at Cmin, in min
+peak height or "PH" using DrugScreen (St-Genesia) at Cmin, in nM/L
+time to peak or "TTP" using DrugScreen (St-Genesia) at Cmin, in min
+endogenous thrombin potential or "ETP" using DrugScreen (St-Genesia) at Cmin, in nM*min/L
+velocity index using DrugScreen (St-Genesia) at Cmin, in nM/min
+start tail using DrugScreen (St-Genesia) at Cmin, in min
+normalised lag time using DrugScreen (St-Genesia) at Cmin, expressed as a ratio
+normalised peak height using DrugScreen (St-Genesia) at Cmin, expressed as a %
+normalised time to peak using DrugScreen (St-Genesia) at Cmin, expressed as a ratio
+normalised endogenous thrombin potential using DrugScreen (St-Genesia) at Cmin, expressed as a %
+normalised velocity index using DrugScreen (St-Genesia) at Cmin, expressed as a %
+normalised start tail using DrugScreen (St-Genesia) at Cmin, expressed as a ratio
+lag time or "LT" using ThromboScreen in the presence of thrombomodulin (St-Genesia) at Cmin, in min
+peak height or "PH" using ThromboScreen in the presence of thrombomodulin (St-Genesia) at Cmin, in nM/L
+time to peak or "TTP" using ThromboScreen in the presence of thrombomodulin (St-Genesia) at Cmin, in min
+endogenous thrombin potential or "ETP" using ThromboScreen in the presence of thrombomodulin (St-Genesia) at Cmin, in nM*min/L
+velocity index using ThromboScreen in the presence of thrombomodulin (St-Genesia) at Cmin, in nM/min
+start tail using ThromboScreen in the presence of thrombomodulin (St-Genesia) at Cmin, in min
+lag time or "LT" using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmin, in min
+peak height or "PH" using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmin, in nM/L
+time to peak or "TTP" using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmin, in min
+endogenous thrombin potential or "ETP" using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmin, in nM*min/L
+velocity index using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmin, in nM/min
+start tail using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmin, in min
+normalised lag time using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmin, expressed as a ratio
+normalised peak height using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmin, expressed as a %
+normalised time to peak using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmin, expressed as a ratio
+normalised endogenous thrombin potential using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmin, expressed as a %
+normalised velocity index using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmin, in nM/min
+normalised start tail using ThromboScreen in the absence of thrombomodulin (St-Genesia) at Cmin, expressed as a ratio
+percentage of inhibition of lag time by thrombomodulin (St-Genesia) at Cmin, expressed as a %
+percentage of inhibition of peak height by thrombomodulin (St-Genesia) at Cmin, expressed as a %
+percentage of inhibition of time to peak by thrombomodulin (St-Genesia) at Cmin, expressed as a %
+percentage of inhibition of endogenous thrombin potential by thrombomodulin (St-Genesia) at Cmin, expressed as a %
+percentage of inhibition of velocity index by thrombomodulin (St-Genesia) at Cmin, expressed as a %
+percentage of inhibition of start tail by thrombomodulin (St-Genesia) at Cmin, expressed as a %
+encoded genotype for abcb1 exon 21 (0 = wild type, 1 = heterozygous, 2 = muted homozygous)
+encoded genotype for abcb1 exon 26 (0 = wild type, 1 = heterozygous, 2 = muted homozygous)
+encoded genotype for abcb1 exon 12 (0 = wild type, 1 = heterozygous, 2 = muted homozygous)
+encoded genotype for CYP2J2 (0 = wild type, 1 = heterozygous, 2 = muted homozygous)
+encoded genotype for CYP3A5 (0 = wild type, 1 = heterozygous, 2 = muted homozygous)
